@@ -180,6 +180,10 @@ header {
   margin-block: var(--main-margin-block);
 }
 
+.section-title_content > * {
+  margin-block: var(--main-margin-block);
+}
+
 .section-new {
   background-color: var(--color-tertairy);
   color: var(--color-primary);
