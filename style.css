@@ -100,7 +100,7 @@ hr {
   border-radius: 1rem;
   color: var(--color-secondary);
   opacity: 50%;
-  margin-block: 3rem;
+  margin-block: 1.5rem;
 }
 
 .overlay {
@@ -198,9 +198,14 @@ header {
 .section-new h3:hover {
   color: var(--Soft-orange);
 }
+.section-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .section-lists > * {
-  margin-block: 3rem;
+  margin-block: 2rem;
 }
 
 .section-lists h3:hover {
@@ -224,7 +229,7 @@ header {
   }
 
   .wrapper {
-    margin-inline: 5rem;
+    margin-inline: 15rem;
   }
   /* -----header----------------------------- */
   .header-menu {
