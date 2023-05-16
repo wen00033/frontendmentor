@@ -67,6 +67,8 @@ p {
 img {
   aspect-ratio: 1/1;
   max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 .header_logo {
   max-height: 4rem;
@@ -222,7 +224,7 @@ header {
   column-gap: 2rem;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 1225px) {
   :root {
     --main-margin-block: 0px;
     --gap: 2%;
