@@ -225,7 +225,7 @@ header {
 @media only screen and (min-width: 376px) {
   :root {
     --main-margin-block: 0px;
-    --gap: 2vh;
+    --gap: 2%;
   }
 
   .wrapper {
@@ -252,7 +252,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-block: 2rem;
-    height: 10vh;
+    height: 10%;
   }
 
   /* -----------based layout 
@@ -264,7 +264,7 @@ header {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 26vh);
+    grid-template-rows: repeat(3, 26%);
     column-gap: var(--gap);
     row-gap: var(--gap);
   }
