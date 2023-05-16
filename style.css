@@ -224,10 +224,10 @@ header {
   column-gap: 2rem;
 }
 
-@media only screen and (min-width: 1225px) {
+@media only screen and (min-width: 1250px) {
   :root {
     --main-margin-block: 0px;
-    --gap: 2%;
+    --gap: 2vh;
   }
 
   .wrapper {
@@ -254,7 +254,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-block: 2rem;
-    height: 10%;
+    height: 10vh;
   }
 
   /* -----------based layout 
@@ -266,7 +266,7 @@ header {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 26%);
+    grid-template-rows: repeat(3, 26vh);
     column-gap: var(--gap);
     row-gap: var(--gap);
   }
