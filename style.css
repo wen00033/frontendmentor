@@ -31,6 +31,10 @@ html {
 body {
   font-family: "Inter", sans-serif;
 }
+
+.wrapper {
+  transition: all 400ms ease-in-out;
+}
 /* ----------elements------------------- */
 h1 {
   font-size: 4rem;
@@ -223,21 +227,14 @@ header {
   grid-template-columns: 1fr 2fr;
   column-gap: 2rem;
 }
-
-@media only screen and (min-width: 1250px) {
-  :root {
-    --main-margin-block: 0px;
-    --gap: 2vh;
-  }
-
+@media only screen and (min-width: 550px) {
   .wrapper {
-    margin-inline: 15rem;
+    margin-inline: 5rem;
   }
-  /* -----header----------------------------- */
+
   .header-menu {
     display: none;
   }
-
   .header-nav[data-expanded="false"] {
     transform: translateX(0%);
   }
@@ -256,6 +253,18 @@ header {
     padding-block: 2rem;
     height: 10vh;
   }
+}
+
+@media only screen and (min-width: 1000px) {
+  :root {
+    --main-margin-block: 0px;
+    --gap: 2%;
+  }
+
+  .wrapper {
+    margin-inline: 8rem;
+  }
+  /* -----header----------------------------- */
 
   /* -----------based layout 
   section------------------- */
@@ -266,7 +275,7 @@ header {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 26vh);
+    grid-template-rows: minmax(0, 30%) minmax(0, 33%) minmax(0, 30%);
     column-gap: var(--gap);
     row-gap: var(--gap);
   }
