@@ -1,3 +1,5 @@
+Name:Chi-hung Wen
+student number: 041022496
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
